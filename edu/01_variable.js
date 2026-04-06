@@ -24,8 +24,7 @@ console.log(name);
 console.log(hoho); // undefinde 출력
 var hoho = '호호';
 console.log(hoho); // '호호' 출력
-
-// 
+ 
 console.log(haha); // 참조 에러 발생
 let haha = '하하';
 console.log(haha);

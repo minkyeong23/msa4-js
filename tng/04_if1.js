@@ -1,0 +1,34 @@
+// IF로 만들어주세요.
+// 성적 
+// 범위 : 
+//		100   : A+
+//		90이상 100미만 : A
+//		80이상 90미만 : B
+//		70이상 80미만 : C
+//		60이상 70미만 : D
+//		60미만: F
+
+//출력 문구 : "당신의 점수는 XXX점 입니다. <등급>"
+
+let num = 40;
+let grade ='';
+
+if (num > 100 || num < 0 || typeof num !== 'number') {
+  console.log('입력값 오류');
+} else {    
+    if (num === 100) {
+      grade = 'A+';
+    } else if (num >= 90) {
+      grade = 'A';
+    } else if (num >= 80) {
+      grade = 'B';
+    } else if (num >= 70) {
+      grade = 'C';
+    } else if (num >= 60) {
+      grade = 'D';
+    } else {
+      grade = 'F';
+    }
+    console.log(`당신의 점수는${num}점 입니다 <${grade}>`); 
+  }
+
