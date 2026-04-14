@@ -10,3 +10,18 @@
   height: 200px;
   margin: 20px;
 }
+
+/* 정답 */
+.container {
+  position: absolute;
+  padding: 15px;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+}
+
+.busted {
+  background-color: #7070ff;
+}
